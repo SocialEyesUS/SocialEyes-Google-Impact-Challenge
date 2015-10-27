@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.redwhale.socialeyesandroid.Cases">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:id="@+id/back_button"
+        android:onClick="backButtonClicked"
+        android:layout_margin="2dp"
+        android:layout_alignParentTop="true"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:background="@drawable/button_topleft"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cases"
+        android:textSize="30sp"
+        android:id="@+id/title"
+        android:gravity="fill"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/back_button" />
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gridview"
+        android:numColumns="auto_fit"
+        android:layout_below="@id/title"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
+
+
+</RelativeLayout>

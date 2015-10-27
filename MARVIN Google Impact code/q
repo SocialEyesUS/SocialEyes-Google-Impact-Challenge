@@ -1,0 +1,101 @@
+[33mcommit 9e229c116fff690410ba63b77f18c3bef4b45fd0[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Wed Sep 9 18:59:53 2015 -0700
+
+    added jtransforms jar as library
+
+[33mcommit 37fd78bbce3cd70e2485250904c91f28e3a070a0[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Tue Sep 8 17:17:32 2015 -0700
+
+    null image check, multistate buttons, progress indicator redesign
+
+[33mcommit a54c0fb4eba7d78689bebdb4c87356bc69d1ea31[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Thu Sep 3 15:55:45 2015 -0700
+
+    Add progress indicator, break computations into async tasks
+
+[33mcommit a014a6fbdf39016871e2238d253dac80fae11832[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Wed Sep 2 15:59:35 2015 -0700
+
+    overhauled case gallery page
+
+[33mcommit 388fc92ae81fbb33389991c8639dddbb13e10fc4[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Fri Aug 28 19:29:07 2015 -0700
+
+    cleaned up some image files that weren't named right for drawable
+
+[33mcommit 154ffa50fc7be90755276c3dc2aebba62a3c1c01[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Fri Aug 28 16:02:13 2015 -0700
+
+    convert filters to real transformation functions
+
+[33mcommit 68cb989bc9395f6bf73bb9f1c15fab726584ad37[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Fri Aug 7 17:42:33 2015 -0700
+
+    adjust text size of filter status inside buttons
+
+[33mcommit 56254030484f0c0ff7d460d5edacd0ec6939efe6[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Wed Aug 5 16:57:32 2015 -0700
+
+    add image zooming features (through photoview lib)
+
+[33mcommit 7ef4419d9dc29f3940f10f1d3fe4447600b3d61a[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Mon Aug 3 20:05:01 2015 -0700
+
+    changed button styling, text, and sizing
+
+[33mcommit a7e2bdda1dea0127c3f4d7e12df1ab4e2e503053[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Fri Jul 31 18:11:08 2015 -0700
+
+    added keystore to repo for generating apk
+
+[33mcommit fa5c748839f5f3bd28f5557c88f663463e2dd509[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Fri Jul 31 17:48:19 2015 -0700
+
+    full side-toolbar functionality with button cycling
+
+[33mcommit fda36acb8000d7666a5871830047254633be9a24[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Thu Jul 30 20:55:48 2015 -0700
+
+    Redo the toolbar
+
+[33mcommit bf314972b367411db668396fe1f2ec0e47b925e7[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Thu Jul 30 19:58:23 2015 -0700
+
+    Change HMA image and text
+
+[33mcommit 7119592df43224b9e3505d43253217e9cf43c798[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Thu Jul 30 15:37:05 2015 -0700
+
+    cases page, new eye images, filter functionality
+
+[33mcommit 19291c51414328666e4048451e552a9ff58142fb[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Tue Jul 28 19:54:46 2015 -0700
+
+    change new toolbar
+
+[33mcommit 01c9b3649355b7cb53e4c62c9d01af939147d857[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Mon Jul 27 19:21:29 2015 -0700
+
+    added eye images, load image to imageviewer, black background
+
+[33mcommit da963f8cecfd36779089dbfb9f396f0da7b8d15a[m
+Author: Kevin Lang <kevin.lang@redwhale.com>
+Date:   Mon Jul 27 18:47:18 2015 -0700
+
+    initial commit, has buttons and toolbar

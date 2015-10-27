@@ -1,0 +1,7 @@
+<resources>
+    <!-- TODO impact -->
+    <string name="app_name">SocialEyes MARVIN 1.0</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cases">Cases</string>
+</resources>
