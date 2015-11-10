@@ -193,15 +193,19 @@ public class Home extends ActionBarActivity {
         }
 
         switch (activeFilter) {
+            case R.id.color_button
+                break;
             case R.id.rf_button:
                 break;
             case R.id.tone_button:
                 toneStatus = 0;
                 button.setText("Tone");
+                button.setTypeface(Typeface.create(button.getTypeface(), Typeface.NORMAL), Typeface.ITALIC);
                 break;
             case R.id.sharpen_button:
                 sharpenStatus = 0;
                 button.setText("Sharpen");
+                button.setTypeface(Typeface.create(button.getTypeface(), Typeface.NORMAL), Typeface.ITALIC);
                 break;
             case R.id.norm_button:
                 break;
@@ -300,7 +304,7 @@ public class Home extends ActionBarActivity {
                 toneTask.execute("tone1");
                 button.setTypeface(Typeface.create(button.getTypeface(), Typeface.NORMAL), Typeface.NORMAL);
                 button.setText("-");
-                button.setTextSize(30);
+                button.setTextSize(32);
                 toneStatus++;
                 break;
             case 2:
@@ -375,6 +379,7 @@ public class Home extends ActionBarActivity {
     }
 
     public void casesButtonClicked(View view) {
+        resetFilter(activeFilter);
         Intent intent = new Intent(this, Cases.class);
         startActivityForResult(intent, 1);
     }
